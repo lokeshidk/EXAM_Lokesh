@@ -26,12 +26,12 @@ public class Order {
         System.out.println("Name: " + name);
         System.out.println("Phone number: " + phone_number);
         System.out.println("Items: "  );
-        for (int i=0;i<this.items.length;i++){//prints all the sizes
+        for (int i=0;i<this.items.length;i++){//prints all the items
             System.out.println(this.items[i]+" ");
         }
         System.out.println();
         System.out.println("Prices: "  );
-        for (int i=0;i<this.prices.length;i++){//prints all the sizes
+        for (int i=0;i<this.prices.length;i++){//prints all the prices
             System.out.println(this.prices[i]+" ");
         }
         System.out.println();
